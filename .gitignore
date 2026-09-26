@@ -1,0 +1,43 @@
+# JavaScript / TypeScript dependencies
+node_modules/
+.pnp.*
+
+# Build output
+dist/
+out/
+build/
+*.tsbuildinfo
+*.tgz
+
+# Test coverage
+coverage/
+*.lcov
+
+# Logs and diagnostics
+logs/
+*.log
+report.[0-9]*.json
+
+# Local environment and Cloudflare secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+.dev.vars
+.dev.vars.*
+!.dev.vars.example
+
+# Tool caches
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.wrangler/
+.turbo/
+.next/
+.nuxt/
+
+# Editor and OS files
+.idea/
+.DS_Store
+Thumbs.db
