@@ -1,0 +1,11 @@
+name = "hackernews-bot"
+main = "index.ts"
+compatibility_date = "2024-01-01"
+
+# Run automatically on a schedule (e.g., daily at 08:00 UTC)
+[triggers]
+crons = ["0 1 * * *"]
+
+[observability.logs]
+enabled = true
+invocation_logs = true
